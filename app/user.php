@@ -20,7 +20,7 @@ class user extends Model
         $user->email = $request->email;
         $user->password = encrypt($request->password);
         $user->description = $request->description;
-        $user->name = $request->name;
+        $user->name = $request->nume;
 
         
         /*
